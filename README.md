@@ -1,7 +1,7 @@
 # Thread-Synchronization-using-Condition-Variables
 
-PART I: on-demand 2-thread synchronization
-In the ﬁrst part of the program named “cv-sync-1”,  two new threads (t1 and t2) are creates at runtime, and  it achieves an execution order for the two new threads according to user input. Speciﬁcally, this program takes three inputs from user: 
+PART I: on-demand 2-thread synchronization  
+In the ﬁrst part of the program named “cv-sync-1”,  two new threads (t1 and t2) are creates at runtime, and  it achieves an execution order for the two new threads according to user input. Speciﬁcally, this program takes three inputs from user:  
 • total runs: a positive integer that speciﬁes the total number of runs of t1 and t2 before the program ends. 
 • t1 runs: a non-negative integer that speciﬁes the number of consecutive runs for t1 before switching to t2. 
 • t2 runs: a non-negative integer that speciﬁes the number of consecutive runs for t2 before switching back to t1.
