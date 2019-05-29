@@ -13,6 +13,7 @@ Additional requirements for the the program:
 • When a child thread runs, it just prints the global index of the run (starting from 1), its name, and its thread ID.  
 • When the total number runs of t1 and t2 reaches total run , t1 and t2 terminate. Then the main thread reports the numbers of runs by t1 and t2 respectively, and exits. 
 The following are the several examples for the expected output:  
+
 Example 1:   
 $ ./cv-sync-1 5 1 1  
 01: IN T1, TID=140067072816896  
@@ -47,6 +48,7 @@ In main thread: T1 printed 5 times. T2 printed 0 times.
 
 PART II: on-demand 3-thread synchronization  
 The second part of the program named “cv-sync-2” is very similar to the previous program. The diﬀerence being that this program performs synchronization among three runtime-created threads instead of two. Some examples of the program are as follows:  
+
 Example 1:   
 $ ./cv-sync-2 8 1 1 1   
 01: IN T1, TID=140232873666304  
